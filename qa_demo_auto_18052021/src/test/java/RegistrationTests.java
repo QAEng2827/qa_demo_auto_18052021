@@ -11,6 +11,10 @@ import java.util.concurrent.TimeUnit;
 public class RegistrationTests {  public WebDriver webDriver;
     private Logger logger = Logger.getLogger(getClass());
 
+    /*
+    *Inna 31-05-21
+     */
+
 
     @Test
     public void registrationTests() throws InterruptedException {
