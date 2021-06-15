@@ -1,4 +1,8 @@
+package RegistrationTests;
+
 import org.apache.log4j.Logger;
+import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -14,12 +18,38 @@ public class RegistrationTests {  public WebDriver webDriver;
     /*
     *Inna 31-05-21
      */
+    @Before
+    public void beforeT(){
+        System.out.println("beforeTest");
+        File chromeFF = new File("./drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", chromeFF.getAbsolutePath());
+        webDriver = new ChromeDriver();
+        webDriver.manage().window().maximize();
+        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+        try {
+            webDriver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+            logger.info("Open registration url - http://automationpractice.com");
+            Thread.sleep(200);
+        } catch (Exception e) {
+            logger.error("Can't open url");
+            Assert.fail("Can't open url");
+
+        }
+    }
+
+    @After
+    public void tearDown(){
+        webDriver.manage().deleteAllCookies();
+        webDriver.quit();
+        logger.info("Browser closed");
+
+    }
 
     @Test
     public void registrationTests() throws InterruptedException {
         boolean gender = true;
-        String emailCustomer = "qaeng2827+2@gmail.com";
+        String emailCustomer = "qaeng2827+3@gmail.com";
         String passwordCustomer = "Qwerty_123";
         String firstName = "Inna";
         String lastName = "Nak";
@@ -35,6 +65,8 @@ public class RegistrationTests {  public WebDriver webDriver;
         String mobilePhone = "+380667778899";
 
         String addressAlias = "office";
+
+
 
 
         //REGISTRATIONS
@@ -219,21 +251,5 @@ public class RegistrationTests {  public WebDriver webDriver;
 
     }
 
-    @Before
-    public void beforeT(){
-        System.out.println("beforeTest");
-        File chromeFF = new File("./drivers/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", chromeFF.getAbsolutePath());
-        webDriver = new ChromeDriver();
-        webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        try {
-            webDriver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-            logger.info("Open registration url - http://automationpractice.com");
-            Thread.sleep(200);
-        } catch (Exception e) {
-            logger.error("Can't open url");
-        }
-    }
 }

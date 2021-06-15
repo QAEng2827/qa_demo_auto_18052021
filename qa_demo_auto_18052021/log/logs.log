@@ -1,0 +1,75 @@
+2021-15-06 14:06:06   INFO [GoogleTest:24  ] : Test starting...
+2021-15-06 14:06:18   INFO [GoogleTest:28  ] : Driver was loaded...
+2021-15-06 14:06:19   INFO [GoogleTest:32  ] : Opening Google...
+2021-15-06 14:06:20   INFO [GoogleTest:49  ] : https://www.google.com/
+2021-15-06 14:06:20   INFO [GoogleTest:51  ] : Google
+2021-15-06 14:06:20   INFO [GoogleTest:55  ] : Found search field
+2021-15-06 14:06:22   INFO [GoogleTest:63  ] : Input value in search field - selenium
+2021-15-06 14:06:25   INFO [GoogleTest:70  ] : https://www.selenium.dev/
+2021-15-06 14:06:25   INFO [GoogleTest:72  ] : SeleniumHQ Browser Automation
+2021-15-06 14:06:27   INFO [GoogleTest:43  ] : Browser closed
+2021-15-06 14:42:44   INFO [GoogleTest:24  ] : Test starting...
+2021-15-06 14:42:57   INFO [GoogleTest:28  ] : Driver was loaded...
+2021-15-06 14:42:59   INFO [GoogleTest:32  ] : Opening Google...
+2021-15-06 14:42:59   INFO [GoogleTest:49  ] : https://www.google.com/
+2021-15-06 14:42:59   INFO [GoogleTest:51  ] : Google
+2021-15-06 14:42:59   INFO [GoogleTest:55  ] : Found search field
+2021-15-06 14:43:02   INFO [GoogleTest:63  ] : Input value in search field - selenium
+2021-15-06 14:43:05   INFO [GoogleTest:70  ] : https://www.selenium.dev/
+2021-15-06 14:43:05   INFO [GoogleTest:72  ] : SeleniumHQ Browser Automation
+2021-15-06 14:43:06   INFO [GoogleTest:43  ] : Browser closed
+2021-15-06 14:44:02   INFO [GoogleTest:24  ] : Test starting...
+2021-15-06 14:44:10   INFO [GoogleTest:28  ] : Driver was loaded...
+2021-15-06 14:44:12   INFO [GoogleTest:32  ] : Opening Google...
+2021-15-06 14:44:12   INFO [GoogleTest:49  ] : https://www.google.com/
+2021-15-06 14:44:12   INFO [GoogleTest:51  ] : Google
+2021-15-06 14:44:12   INFO [GoogleTest:55  ] : Found search field
+2021-15-06 14:44:15   INFO [GoogleTest:63  ] : Input value in search field - selenium
+2021-15-06 14:44:16   INFO [GoogleTest:70  ] : https://www.selenium.dev/
+2021-15-06 14:44:16   INFO [GoogleTest:72  ] : SeleniumHQ Browser Automation
+2021-15-06 14:44:16   INFO [GoogleTest:76  ] : Titles are not equal
+2021-15-06 14:44:17   INFO [GoogleTest:43  ] : Browser closed
+2021-15-06 14:45:30   INFO [GoogleTest:24  ] : Test starting...
+2021-15-06 14:45:39   INFO [GoogleTest:28  ] : Driver was loaded...
+2021-15-06 14:45:40   INFO [GoogleTest:32  ] : Opening Google...
+2021-15-06 14:45:40   INFO [GoogleTest:49  ] : https://www.google.com/
+2021-15-06 14:45:40   INFO [GoogleTest:51  ] : Google
+2021-15-06 14:45:41   INFO [GoogleTest:55  ] : Found search field
+2021-15-06 14:45:43   INFO [GoogleTest:63  ] : Input value in search field - selenium
+2021-15-06 14:45:44   INFO [GoogleTest:69  ] : https://www.selenium.dev/
+2021-15-06 14:45:45   INFO [GoogleTest:71  ] : SeleniumHQ Browser Automation
+2021-15-06 14:45:45   INFO [GoogleTest:75  ] : Titles are not equal
+2021-15-06 14:45:46   INFO [GoogleTest:43  ] : Browser closed
+2021-15-06 14:47:42   INFO [GoogleTest:24  ] : Test starting...
+2021-15-06 14:47:49   INFO [GoogleTest:28  ] : Driver was loaded...
+2021-15-06 14:47:51   INFO [GoogleTest:32  ] : Opening Google...
+2021-15-06 14:47:51   INFO [GoogleTest:49  ] : https://www.google.com/
+2021-15-06 14:47:51   INFO [GoogleTest:51  ] : Google
+2021-15-06 14:47:51   INFO [GoogleTest:55  ] : Found search field
+2021-15-06 14:47:53   INFO [GoogleTest:63  ] : Input value in search field - selenium
+2021-15-06 14:47:55   INFO [GoogleTest:69  ] : https://www.selenium.dev/
+2021-15-06 14:47:55   INFO [GoogleTest:71  ] : SeleniumHQ Browser Automation
+2021-15-06 14:47:55   INFO [GoogleTest:75  ] : Titles are not equal
+2021-15-06 14:47:57   INFO [GoogleTest:43  ] : Browser closed
+2021-15-06 14:49:33   INFO [GoogleTest:24  ] : Test starting...
+2021-15-06 14:49:41   INFO [GoogleTest:28  ] : Driver was loaded...
+2021-15-06 14:49:43   INFO [GoogleTest:32  ] : Opening Google...
+2021-15-06 14:49:43   INFO [GoogleTest:49  ] : https://www.google.com/
+2021-15-06 14:49:43   INFO [GoogleTest:51  ] : Google
+2021-15-06 14:49:43   INFO [GoogleTest:55  ] : Found search field
+2021-15-06 14:49:46   INFO [GoogleTest:63  ] : Input value in search field - selenium
+2021-15-06 14:49:47   INFO [GoogleTest:69  ] : https://www.selenium.dev/
+2021-15-06 14:49:47   INFO [GoogleTest:71  ] : SeleniumHQ Browser Automation
+2021-15-06 14:49:47   INFO [GoogleTest:74  ] : Titles are equal
+2021-15-06 14:49:48   INFO [GoogleTest:43  ] : Browser closed
+2021-15-06 14:56:00   INFO [GoogleTest:24  ] : Test starting...
+2021-15-06 14:56:12   INFO [GoogleTest:28  ] : Driver was loaded...
+2021-15-06 14:56:14   INFO [GoogleTest:32  ] : Opening Google...
+2021-15-06 14:56:14   INFO [GoogleTest:49  ] : https://www.google.com/
+2021-15-06 14:56:14   INFO [GoogleTest:51  ] : Google
+2021-15-06 14:56:14   INFO [GoogleTest:55  ] : Found search field
+2021-15-06 14:56:17   INFO [GoogleTest:63  ] : Input value in search field - selenium
+2021-15-06 14:56:20   INFO [GoogleTest:69  ] : https://www.selenium.dev/
+2021-15-06 14:56:21   INFO [GoogleTest:71  ] : SeleniumHQ Browser Automation
+2021-15-06 14:56:21   INFO [GoogleTest:74  ] : Titles are equal
+2021-15-06 14:56:22   INFO [GoogleTest:43  ] : Browser closed
